@@ -1,6 +1,6 @@
 
 # Accept User Input, consider (4)
-n = int(raw_input("How big? "))
+n = int(input("How big?"))
 
 # Building block of our mountain of money
 s = '$'
@@ -14,14 +14,14 @@ s = '$'
 #  $$$    and so on
 # $$$$
 # Again, notice how i and n change for each iteration
-for i in range( 1 , n+1):
-    print (' ' *(n-i) + s*i)
+for i in range(1, n + 1):
+    print(' ' * (n - i) + s * i)
 
 
-print("\n")  
+print()  
 
 
 # Other variant
 s = '$$'
-for i in range( 1 , n+1):
-    print (' ' *(n-i) + s*i)
+for i in range(1, n + 1):
+    print (' ' * (n - i) + s * i)
